@@ -4,7 +4,7 @@
   "description": "",
   "main": "hello-world.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Intellicode/cicd-demo#readme",
   "dependencies": {
     "standard-version": "^9.3.2"
+  },
+  "standard-version": {
+    "releaseCommitMessageFormat": "chore(release): {{currentTag}} [skip ci]"
   }
 }

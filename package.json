@@ -1,0 +1,22 @@
+{
+  "name": "cicd-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Intellicode/cicd-demo.git"
+  },
+  "author": "Tom Hastjarjanto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Intellicode/cicd-demo/issues"
+  },
+  "homepage": "https://github.com/Intellicode/cicd-demo#readme",
+  "dependencies": {
+    "standard-version": "^9.3.2"
+  }
+}
